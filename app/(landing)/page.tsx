@@ -6,6 +6,7 @@ import { redirect } from "next/navigation"
 
 export const metadata: Metadata = {
   title: "Explorer",
+  description: "Explore user's repositories.",
 }
 
 export default function Home() {
