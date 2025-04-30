@@ -1,5 +1,7 @@
 # Repo Explorer
 
+Lighthouse score: <https://pagespeed.web.dev/analysis/https-repo-explorer-nine-vercel-app/np1qaqn465?form_factor=mobile>
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
