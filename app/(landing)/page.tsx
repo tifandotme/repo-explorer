@@ -55,7 +55,7 @@ export default function Home() {
 
       <a
         className="inline-flex shrink-0 items-center gap-1 self-start rounded-full bg-white/7 px-5 py-2 text-xs font-light text-white/80 transition-colors duration-200 hover:bg-white/10"
-        href="https://github.com/tifandotme/gh-explorer"
+        href="https://github.com/tifandotme/repo-explorer"
         target="_blank"
       >
         Source Code
