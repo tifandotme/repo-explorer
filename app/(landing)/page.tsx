@@ -1,7 +1,12 @@
 import { Button } from "@/components/ui/button"
 import { ArrowUpRight, AtSign, Github } from "lucide-react"
+import { Metadata } from "next"
 import Form from "next/form"
 import { redirect } from "next/navigation"
+
+export const metadata: Metadata = {
+  title: "Explorer",
+}
 
 export default function Home() {
   async function search(formData: globalThis.FormData) {

@@ -1,6 +1,7 @@
 import { RepositoryCard } from "@/components/repo-card"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react"
+import { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 
@@ -75,6 +76,17 @@ async function fetchGitHubUserInfo(
   } catch (error) {
     console.error("Error fetching GitHub user info:", error)
     return null
+  }
+}
+
+export async function generateMetadata(props: {
+  params: Promise<{ username: string }>
+}): Promise<Metadata> {
+  const { username } = await props.params
+
+  return {
+    title: `${username} - Explorer`,
+    description: `Explore ${username}'s GitHub repositories`,
   }
 }
 
