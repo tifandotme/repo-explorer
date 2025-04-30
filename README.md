@@ -1,7 +1,5 @@
 # Repo Explorer
 
-Just a repo lister
-
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
